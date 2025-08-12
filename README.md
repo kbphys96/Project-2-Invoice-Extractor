@@ -22,9 +22,6 @@ Google Generative AI SDK – to interact with Gemini API
 dotenv – to manage environment variables
 
 📂 Project Structure
-bash
-Copy
-Edit
 .
 ├── .gitignore
 ├── app.py                  # Main Streamlit app
@@ -34,34 +31,18 @@ Edit
 └── README.md               # Project documentation
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/kbphys96/multi-language-invoice-extractor.git
 cd multi-language-invoice-extractor
 2️⃣ Create and activate a virtual environment
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate   # For Mac/Linux
 venv\Scripts\activate      # For Windows
 3️⃣ Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 4️⃣ Set up environment variables
 Create a .env file in the project root and add your Google API key:
-
-ini
-Copy
-Edit
 GOOGLE_API_KEY=your_google_api_key_here
 ▶️ Run the App
-bash
-Copy
-Edit
 streamlit run app.py
 📸 Usage
 Enter a prompt (e.g., "What is the total amount?").
@@ -81,4 +62,3 @@ AttributeError: 'dict' object has no attribute 'save' – Ensure you are working
 
 📜 License
 This project is licensed under the MIT License.
-
